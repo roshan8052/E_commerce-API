@@ -5,7 +5,6 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 
-
 const authRoutes = require('./src/routes/auth');
 const productRoutes = require('./src/routes/products');
 const cartRoutes = require('./src/routes/cart');
